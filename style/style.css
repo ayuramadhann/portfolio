@@ -1,0 +1,142 @@
+body {
+  font-family: 'Poppins';
+}
+
+footer .foot {
+  margin-top: 100px;
+  background-color: #f0f0f0;
+}
+
+.services h1, .projects h1, .contact h1{
+  position: absolute;
+  font-size: 2.75rem;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.services h2, .projects h2, .contact h2{
+  padding-left: 25px;
+  position: relative;
+}
+
+.iconservice p{
+  font-size: 14px;
+}
+
+.contact {
+  margin-bottom: 100px;
+  background-color: #6A2ABC;
+}
+
+.contact h1{
+  position: absolute;
+  font-size: 2.75rem;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.2);
+}
+
+.contact a{
+  background: #FFFFFF;
+  border-radius: 5px;
+  color: #6A2ABC;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.iconsosmed a span {
+  color: rgb(19, 19, 19);
+}
+
+.projects {
+  margin-bottom: 100px;
+}
+
+.services .card {
+  background: #FFFFFF;
+  box-shadow: 10px 10px 20px rgba(168, 168, 168, 0.15), inset -31px -31px 43px rgba(255, 255, 255, 0.65), inset 26px 26px 100px rgba(137, 137, 137, 0.1);
+  border-radius: 16px;
+  border: 1px rgba(0, 0, 0, 0);
+  transition: all 0.7s ease;
+  width: 15rem;
+}
+
+.foot a{
+  background: #FFFFFF;
+  box-shadow: 10px 10px 20px rgba(168, 168, 168, 0.15), inset -31px -31px 43px rgba(255, 255, 255, 0.65), inset 26px 26px 100px rgba(137, 137, 137, 0.1);
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  border: 1px rgba(0, 0, 0, 0);
+  transition: all 0.7s ease;
+  color: #6A2ABC;
+}
+
+.services .card img{
+  width: 90px;
+}
+
+.services .card:hover {
+  border : 1px solid #6A2ABC ;  
+}
+
+.foot a:hover {
+  border : 1px solid #6A2ABC ;  
+}
+
+.article p{
+  font-size: 15px !important; 
+}
+
+.article p a{
+  color: #6A2ABC;
+}
+
+.article-box{
+  transition: 0.4s;
+  transition-timing-function: ease;
+}
+.article-box:hover{
+  opacity: 0.7;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .masthead .article {
+    width: 95%;
+    margin-top: -120px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .masthead .article {
+    width: 85%;
+    margin-top: -100px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .masthead .article {
+    width: 85%;
+    margin-top: -90px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .masthead .article {
+    width: 65%;
+    margin-top: 10px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .masthead .article {
+    width: 50%;
+  }
+}
